@@ -10,10 +10,16 @@ SE5104 Mini Project, Group 10.
 - docs/       : project documentation
 - diagrams/   : UML and architecture diagrams
 
-## Branch rules
-- main: stable, integrated code. Changed only by pull request from develop.
-- develop: integration branch. Changed only by pull request from feature branches.
-- feature/*: one branch per module or task, created from develop.
+## Branch rules & Contribution Workflow
+To track individual contributions for academic assessment (SE5104 Mini Project):
+- **main**: Stable, final release branch for demo/submission.
+- **develop**: Integration branch where tested member contributions merge.
+- **Member Branches** (one branch per team member):
+  - `Thimaya`: Backend architecture, route APIs, and core services.
+  - `Nisal`: Mobile UI / Flutter client modules.
+  - `Suneth`: Database design, migrations, and reporting engine.
+  - `dumindi`: Authentication, notifications, and integration testing.
+  *(Each member commits and pushes to their own branch, then submits Pull Requests into `develop` to clearly showcase individual contribution for marking).*
 
 ## Setup
 To be completed by the team as the project grows.
